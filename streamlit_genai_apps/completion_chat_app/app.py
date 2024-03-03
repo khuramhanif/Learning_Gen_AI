@@ -4,7 +4,8 @@ from dotenv import load_dotenv
 import os
 
 
-load_dotenv()
+print(load_dotenv())
+
 
 st.title("Streamlit Chatbot Math Tutor")
 
